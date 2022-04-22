@@ -1,0 +1,26 @@
+{
+  "name": "@kokororin/prettierrc",
+  "version": "0.1.1",
+  "license": "MIT",
+  "description": "Prettier config for me",
+  "main": "prettier.config.js",
+  "files": [
+    "prettier.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kokororin/prettierrc"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "formatting"
+  ],
+  "scripts": {
+    "prettier": "prettier README.md prettier.config.js --list-different --write",
+    "test": "yarn run prettier --write=false"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
